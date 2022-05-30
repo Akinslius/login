@@ -1,0 +1,121 @@
+
+html,body {
+  background: url("A9.jpg");
+  background-size: cover;
+}
+body,p,input,select,textarea,button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+}
+p, h3 {
+  color: #babecc;
+ 
+}
+a{
+  text-decoration: none;
+}
+form {
+  padding: 16px;
+  width: 400px;
+  margin: 20px auto auto auto;
+  background-color: rgba(236, 129, 110, 0.925);
+  border-radius: 10px;
+}
+.segment {
+  padding: 32px 0;
+  text-align: center;
+}
+
+
+.login_with {
+  text-align: center;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  background-color: #ebecf0;
+
+}
+label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+input {
+  margin-right: 8px;
+  
+  width: 100%;
+  box-sizing: border-box; 
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+  
+  
+}
+ input:hover {
+   border: 5px solid #ebecf0;
+   background: transparent;
+  
+} 
+button {
+  color: #61677c;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+button.unit:hover {
+  box-shadow: -2px -2px 5px rgb(245, 204, 204), 2px 2px 5px #babecc;
+}
+button:active {
+  box-shadow: inset 1px 1px 2px #f07059, inset -1px -1px 2px rgb(238, 48, 48);
+}
+button .icon {
+  margin-right: 8px;
+}
+button.unit {
+  border-radius: 8px;
+  line-height: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:-28px;
+  margin-top: -20px;
+  margin-right: 18px;
+  font-size: 19.2px;
+  color: #ae1100;
+}
+button.unit .fa-brands {
+  margin-right: 0; 
+ 
+}
+button.red {
+  display: block;
+  width: 100%;
+  color: #ae1100;
+  margin-top: 40px ;
+}
+
+.red:hover{
+  box-shadow: -2px -2px 5px rgb(245, 204, 204), 2px 2px 5px #babecc;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-group label {
+  margin: 0;
+  flex: 1;
+}
+
+
